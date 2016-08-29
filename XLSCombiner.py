@@ -51,7 +51,7 @@ except:
 	os.system('color 4F');
 	import time;
 	import traceback;
-	print 'An error occurred.';
+	print 'An error occurred. See err.log.';
 	errtime = time.time();
 	errlog = traceback.format_exc();
 	fo = open("err.log", "a");
